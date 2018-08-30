@@ -1,0 +1,159 @@
+body {
+    width: 100% ; 
+    display: block;
+    margin: 0;
+    height: 100%;
+    background-color: red;
+}
+div#home {
+    background-image: url("./fotosPzzaria/imgPzzaria6.jpg");
+    background-repeat: no-repeat;
+    height: 620px;
+    background-size: 100% 100%;
+    border: none;
+}
+
+
+div#header {         
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin: none;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+          
+}
+
+
+#capaLogoPrincipal {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    
+    
+    margin: none;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    height: 40px;
+    font-size: 30px;
+    background-image: url("./fotosPizzaria/imgPzzaria.jpg");
+    background-repeat: no-repeat;
+}
+
+p#textCapa {
+    margin-top: 550px;
+}
+
+
+div#header a {
+        color: black;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 60px;
+            
+}
+div#promocao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    background-color: red;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#imgsPromocao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+#cardapio {
+    height: 600px;
+    width: 100%;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+}
+
+p#listasCardapio {
+    margin: none;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+
+
+
+}
+
+div#saboresPzzaria {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin: none;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    color: white;
+    
+
+    
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+#contato {
+    background-color:#18FFFF; 
+    display: flex;
+    margin-top: -10px;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: column;
+
+   
+}
+
+p#sobreContato {
+    text-align:center;
+    font-size: 40px;
+    font-weight: 40;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+
+div#meiosDeContato {
+    text-align:center;
+    position: relative;
+    font-size: 20px;
+    font-weight: 10;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    width: 210px;
+    height: 50px;;
+}
+
+
+
+
+  
